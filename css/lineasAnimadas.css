@@ -1,0 +1,25 @@
+/*Lineas*/
+    .line {
+  width: 3px;
+  animation: forwards 2s movimiento_de_linea linear;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.line_1 {
+  height: 30px;
+}
+.line_3 {
+  height: 50px;
+}
+.line_5 {
+  height: 90px;
+  margin-top: 20px;
+}
+.line_4 {
+  height: 110px;
+}
+.line_2 {
+  height: 180px;
+  margin-top: 20px;
+}

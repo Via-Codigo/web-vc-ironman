@@ -1,0 +1,497 @@
+@import "css/base.css";
+@import "css/colores.css";
+@import "css/animaciones.css";
+@import "css/util.css";
+@import "css/lineasAnimadas.css";
+
+/*Inicio*/
+
+/*MENU*/
+
+.menuPrincipal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 150px;
+  background-color: #f6f6f6;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0 1px 3px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.menuPrincipal.small {
+  height: 90px;
+}
+
+.img_azul_logo {
+  overflow: hidden;
+  position: relative;
+  top: -70px;
+}
+
+.img_azul_logo.small {
+  width: 70%;
+}
+.lista_menu {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 23px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150px;
+}
+
+.lista_menu.small {
+  font-size: 16px;
+  line-height: 90px;
+}
+
+/*Menu Oculto*/
+.menu_celular {
+  position: absolute;
+  right: 0;
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  line-height: 59px;
+  padding: 0;
+  margin-top: 150px;
+  background-color: white;
+}
+.menuCasi {
+  opacity: 0;
+  z-index: -5;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s,
+    z-index 0s linear 0.01s;
+  margin-top: -10000px;
+}
+.menuListo {
+  visibility: visible;
+  z-index: 999;
+  opacity: 1;
+  margin-top: 0px;
+}
+.menu_celularEnlace {
+  background-color: #f9f9f9;
+  color: #16415e;
+  display: block;
+}
+.border_bottom_azul {
+  border-bottom: 1px solid #738d9e;
+}
+/*cierre de menu oculto*/
+
+/*Barra de logo y menu de navegacion*/
+
+/*Menu oculto xs y lg*/
+.contenedor_menu_hamburguesa {
+  display: none;
+}
+.menuHA > span:after {
+  content: "";
+  border-bottom: 7px solid #f05351;
+  width: 50px;
+  height: 12px;
+  display: block;
+  cursor: pointer;
+  margin: 5px;
+}
+/*Fin de menu oculto xs y lg*/
+
+/*Fin de la Barra de logo y menu de navegacion*/
+
+/*Barra de video de youtube*/
+
+.iframe_youtube_container {
+  /* height: 600px; */
+  background-image: url("images/logo_azul.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+  padding-top: 150px;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.iframe_youtube_container .video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*Fin de Barra de video de youtube*/
+
+/*Titulos*/
+.titulo_secundario {
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 20px;
+  font-size: 90px;
+}
+
+.titulo_terciario {
+  font-size: 40px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+.titulo_cuaternario {
+  font-size: 26px;
+  margin-top: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.titulo_quinto {
+  font-size: 22px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/*Barra de somos*/
+/*section compu-via*/
+.back_fondo {
+  background-size: 100% 600px;
+  background-image: url("images/hero-background.31041728.jpg");
+  width: 100%;
+  /* margin-top: 150px; */
+}
+.img_comp {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+/* fin section compu-via*/
+/*Barra de somos fin*/
+
+/*Inicio de barra de sobre*/
+
+.sobre_sec {
+  background-color: #f6f6f6;
+  padding: 78px;
+}
+.sobre_sec p {
+  font-size: 20px;
+  line-height: 1.7;
+}
+.enlace_tipoBoton {
+  width: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+  line-height: 2.5;
+  border-bottom: 1px #ffd25c solid;
+  padding: 10px 20px;
+}
+.enlace_tipoBoton:hover {
+  text-decoration: none;
+  color: #174665;
+}
+
+/*Fin de barra de sobre*/
+
+/*Inicio Quien son*/
+
+.quienSon_sec {
+  padding: 140px;
+}
+.imag_tor {
+  max-width: 50%;
+  margin-bottom: 30px;
+  margin-left: 33%;
+}
+
+/*Fin de Quien son*/
+
+/*inicio de metodos*/
+.meto_sec {
+  background-color: #f6f6f6;
+  padding: 5% 0%;
+  text-align: center;
+}
+.centrado_meto {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/*fin de metods*/
+
+/*suscribe section*/
+.suscrib_sec {
+  padding: 120px 0px;
+}
+.img_escondidaI {
+  background-image: url("images/adorno-izquierda.png");
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.img_escondidaD {
+  background-image: url("images/adorno-derecha.png");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.input_gigante {
+  font-size: 20px;
+  padding: 10px 20px;
+  width: 99%;
+  height: 60px;
+  border-radius: 3px;
+  border-color: #fff6f6;
+  border: 2px solid #174665;
+  color: #174665;
+}
+.btn_gigante {
+  width: 100%;
+  height: 60px;
+  font-size: 18px;
+  color: white;
+  background-color: #f05351;
+}
+.btn_gigante:hover {
+  background-color: #174665;
+}
+.sin_padding {
+  padding: 0px;
+  margin-bottom: 5px;
+}
+/*suscribe section fin*/
+
+/*seccion footer inicioo*/
+.footer_sec {
+  background-color: #174665;
+}
+.footer_padding {
+  padding: 0px 0px 40px 6px;
+}
+.lista_menu_footer {
+  display: inline-flex;
+  align-items: center;
+  height: 60px;
+  padding: 10px 13px;
+  color: white !important;
+}
+.img_footer_lod {
+  width: 20%;
+  margin-bottom: 20px;
+}
+.background_ubicanos {
+  background-color: #16415e;
+  padding: 18px 36px 37px 83px;
+  margin-bottom: -25px;
+}
+.ul_icon {
+  padding: 0px;
+  display: inline-flex;
+}
+.list_icons {
+  list-style: none;
+  padding: 10px;
+}
+.icon_color {
+  color: #bebdbd;
+}
+.icon_color:hover {
+  color: #ffd25c;
+}
+/*section footer final*/
+
+/*****************el proyectoooo*******************/
+
+.img_fond_aprender {
+  background-image: url("https://viacodigo.com/wp-content/uploads/2017/11/hero-background.jpg");
+  background-color: rgba(255, 255, 255, 0);
+  background-size: cover;
+  padding-top: 150px;
+}
+.img_fond_objetivos {
+  background-image: url("https://viacodigo.com/wp-content/uploads/2017/11/fondo-proyecto.png");
+  background-color: rgba(255, 255, 255, 0);
+  background-size: cover;
+}
+.img_fond_programa {
+  background-color: #f6f6f6;
+}
+.modul {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.circul_mod {
+  color: #f05351;
+  margin-right: 5px;
+  font-size: 7px;
+  margin-right: 10px;
+}
+.font_sizePadding {
+  font-size: 18px;
+  padding: 5px;
+}
+.enla_info {
+  color: #f05351;
+  text-decoration-color: #ffd25c;
+}
+.enla_info:hover {
+  text-decoration: none;
+  color: #16415e;
+}
+
+/*formulario**/
+.envio_info {
+  -webkit-appearance: none;
+  border-bottom: solid #ffd25c 2px;
+  background-color: transparent;
+  border-radius: 0px;
+}
+.enlace_enviad:hover {
+  text-decoration: none;
+  color: #16415e;
+}
+.input_remas {
+  width: 100%;
+  border: none;
+  border-bottom: 3px solid;
+  border-color: #174665;
+  padding: 5px;
+  margin-bottom: 45px;
+  background-color: transparent;
+}
+.textarea_remas {
+  width: 100%;
+  border: none;
+  border-bottom: 3px solid;
+  border-color: #174665;
+  padding: 5px;
+  background-color: transparent;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1440px) {
+  .lista_menu {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1200px) {
+  .lista_menu {
+    padding: 0px 10px;
+    font-size: 19px;
+  }
+  .centrado_meto {
+    width: 60%;
+  }
+
+  .img_footer_lod {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 900px) {
+  .lista_menu {
+    padding: 0px 4px;
+    font-size: 14px;
+  }
+  .centrado_meto {
+    width: 100%;
+  }
+  .footer_padding {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  /*menu oculto xs y lg*/
+  .menu_grande {
+    display: none;
+  }
+  .contenedor_menu_hamburguesa {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 7%;
+    top: 30%;
+  }
+
+  /*Inicio de seccion sobre*/
+
+  .sobre_sec {
+    padding: 25px 5px;
+  }
+
+  /*Inicio de seccion quien son */
+  .quienSon_sec {
+    padding: 25px 5px;
+  }
+  .img_her {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .imag_tor {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .titulo_secundario {
+    font-size: 40px;
+  }
+
+  /*Metodos*/
+
+  .imag_peq_go {
+    width: 30%;
+    margin-top: 40px;
+  }
+  .centrado_meto {
+    width: 100%;
+  }
+
+  /*Suscribete*/
+
+  .img_escondidaI {
+    background-image: url("images/adorno-izquierda.png");
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  .img_escondidaD {
+    background-image: url("images/adorno-derecha.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+  .suscrib_sec {
+    padding: 450px 5px;
+    margin-top: 20px;
+  }
+  /*Footer*/
+  .img_footer_lod {
+    width: 50%;
+  }
+  .lista_menu_footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 0px;
+  }
+  .background_ubicanos {
+    text-align: center;
+    padding: 0px;
+  }
+  .meto_sec {
+    padding: 20px 5px;
+  }
+  .footer_sec {
+    color: white;
+  }
+  .margin_left_sm {
+    margin-left: 0px;
+  }
+}

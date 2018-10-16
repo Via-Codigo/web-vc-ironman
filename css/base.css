@@ -1,0 +1,41 @@
+/* 
+Pasos para comenzar
+
+1. conseguir colores
+2. conseguir tamaños de letra de todos los elementos: h1->h6, p, a y variantes de las mismas, forms y buttons
+3. Conseguir distancias: margins y paddings que se usan en la web para ver cuales son comunes a todo
+4. conseguir diseños de todos los botones e inputs de forms
+5. conseguir tamaños de imágenes
+6. conseguir estilos de menú mobile
+
+*/
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #f05351;
+}
+
+a:hover {
+  color: #174665;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #174665;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 90px;
+  font-weight: 800;
+}

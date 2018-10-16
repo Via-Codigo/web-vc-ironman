@@ -1,0 +1,33 @@
+.div_centrado {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+.t_center {
+  text-align: center;
+}
+.margin_b_sm{
+  margin-bottom: 30px;
+}
+.margin_t_sm{
+	margin-top: 30px;
+}
+.margin_bottomMD {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.display_inline_f {
+  display: inline-flex;
+}
+.display_f {
+  display: flex;
+}
+.jcc {
+  justify-content: center;
+}
+.margin_left_md{
+  margin-left: 50px;
+}
+.margin_left_sm{
+  margin-left: 50px;
+}

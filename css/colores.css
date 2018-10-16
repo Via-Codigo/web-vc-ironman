@@ -1,0 +1,33 @@
+.color_RojoVC {
+  color: #f05351;
+}
+	.hover_rojoVC:hover{
+		color: #f05351;
+		text-decoration: none;
+	}
+.color_AzulVC{
+	color: #16415e;
+}
+.color_AmarilloVC{
+	color: #ffd25c;
+}
+	.hover_AmarilloVC:hover{
+		color: #ffd25c;
+		text-decoration: none;
+	}
+.color_grisLetras {
+  color: #7d7f82;
+}
+.color_footer_enlace{
+	color: #7490a3;
+}
+.color_whiteVC{
+	color: white;
+	text-decoration: none;
+}
+.color_hover_enlaces{
+	color: #16415e;
+}
+.color_hover_menuEscondido{
+	color: #738d9e;
+}
