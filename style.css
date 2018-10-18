@@ -8,7 +8,7 @@
 
 /*MENU*/
 
-.menuPrincipal {
+.header-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -18,9 +18,10 @@
   position: fixed;
   width: 100%;
   z-index: 999;
+  padding: 0 50px;
 }
 
-.menuPrincipal.small {
+.header-container.small {
   height: 90px;
 }
 
@@ -400,6 +401,10 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .header-container {
+    padding: 0 40px;
+  }
 }
 @media (max-width: 900px) {
   .lista_menu {
@@ -417,6 +422,10 @@
   /*menu oculto xs y lg*/
   .menu_grande {
     display: none;
+  }
+
+  .header-container {
+    padding: 0;
   }
   .contenedor_menu_hamburguesa {
     display: flex;
