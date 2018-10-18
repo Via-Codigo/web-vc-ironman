@@ -48,6 +48,10 @@
   line-height: 90px;
 }
 
+.lista_menu a {
+  text-transform: uppercase;
+}
+
 /*Menu Oculto*/
 .menu_celular {
   position: absolute;
