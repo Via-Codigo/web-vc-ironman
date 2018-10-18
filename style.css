@@ -82,9 +82,10 @@
   background-color: #f9f9f9;
   color: #16415e;
   display: block;
+  font-weight: bold;
 }
 .border_bottom_azul {
-  border-bottom: 1px solid #738d9e;
+  border-bottom: 2px solid #738d9e;
 }
 /*cierre de menu oculto*/
 
