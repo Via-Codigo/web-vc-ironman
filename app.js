@@ -13,11 +13,12 @@ function aparecerM() {
 function resizeHeaderOnScroll() {
   const distanceY = window.pageYOffset || document.documentElement.scrollTop,
     shrinkOn = 200,
-    menuPrincipal = document.getElementById("menuPrincipal"),
-    logoTop = document.getElementById("logoTop"),
-    itemsMenu = document.getElementsByClassName("itemMenu");
+    minWidth = 767;
+  (menuPrincipal = document.getElementById("menuPrincipal")),
+    (logoTop = document.getElementById("logoTop")),
+    (itemsMenu = document.getElementsByClassName("itemMenu"));
 
-  if (distanceY > shrinkOn) {
+  if (distanceY > shrinkOn || window.screen.width <= minWidth) {
     menuPrincipal.classList.add("small");
     logoTop.classList.add("small");
     for (let i = 0; i < itemsMenu.length; i++) {
@@ -33,3 +34,4 @@ function resizeHeaderOnScroll() {
 }
 
 window.addEventListener("scroll", resizeHeaderOnScroll);
+window.addEventListener("load", resizeHeaderOnScroll);
