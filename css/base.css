@@ -9,8 +9,8 @@ Pasos para comenzar
 6. conseguir estilos de menú mobile
 
 */
-body{
-	font-family: 'Source Sans Pro', sans-serif;
+body {
+  font-family: "Source Sans Pro", sans-serif;
 }
 * {
   box-sizing: border-box;
@@ -31,11 +31,20 @@ h4,
 h5,
 h6 {
   color: #174665;
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 h2 {
   font-size: 90px;
   font-weight: 800;
+}
+
+.first-section {
+  padding-top: 150px !important;
+}
+
+img {
+  width: 100%;
 }

@@ -162,6 +162,19 @@
   font-weight: 500;
 }
 
+/* SLIDER */
+
+.slide__fondo {
+  width: 100%;
+}
+/* fin SLIDER */
+
+/* LOGOS */
+.logos .logo {
+  margin-bottom: 50px;
+}
+/* fin LOGOS */
+
 /*Barra de somos*/
 /*section compu-via*/
 .back_fondo {
