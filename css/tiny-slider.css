@@ -1,0 +1,39 @@
+/* .tns-controls {
+  display: flex;
+  justify-content: space-between;
+  top: 50vh;
+  position: relative;
+  z-index: 999;
+}
+
+.tns-nav {
+  text-align: center;
+  position: relative;
+  z-index: 998;
+  top: 80vh;
+} */
+
+.controls {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  left: 0;
+  background: transparent;
+  width: 100%;
+  top: 50%;
+  transform: translatey(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.controls:focus {
+  outline: none;
+}
+.controls li:hover {
+  cursor: pointer;
+}
+
+.controls .fas {
+  color: #f05351;
+}
