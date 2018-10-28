@@ -45,6 +45,12 @@ h2 {
   padding-top: 150px !important;
 }
 
-img {
-  width: 100%;
+.logo a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.section {
+  padding: 5% 0%;
 }

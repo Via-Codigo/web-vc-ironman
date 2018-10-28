@@ -175,6 +175,50 @@
 }
 /* fin LOGOS */
 
+/* testimonios */
+.testimonios {
+  background-image: url("images/fotos/_MG_2794.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+
+.testimonios .blockquote-container {
+  padding: 5%;
+  background-color: rgba(255, 210, 92, 0.6);
+  color: #16415e;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.testimonios blockquote:before,
+.testimonios blockquote:after {
+  display: inline-block;
+  vertical-align: top;
+  height: 30px;
+  line-height: 48px;
+  font-size: 50px;
+  opacity: 0.8;
+}
+
+.testimonios blockquote::before {
+  content: open-quote;
+  color: #f05351;
+  margin-right: 4px;
+  margin-left: -8px;
+}
+
+.testimonios blockquote::after {
+  content: close-quote;
+  color: #f05351;
+  margin-left: 4px;
+  margin-right: -8px;
+}
+
+.testimonios .blockquote-author {
+  color: #f05351;
+}
+/* fin testimonios */
+
 /*Barra de somos*/
 /*section compu-via*/
 .back_fondo {
