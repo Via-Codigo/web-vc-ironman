@@ -83,6 +83,7 @@
   color: #16415e;
   display: block;
   font-weight: bold;
+  text-transform: uppercase;
 }
 .border_bottom_azul {
   border-bottom: 2px solid #738d9e;
