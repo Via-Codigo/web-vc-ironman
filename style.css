@@ -599,6 +599,10 @@
   content: "+";
 }
 
+.counter-hour:after {
+  content: "h";
+}
+
 .counter-title {
   text-transform: none;
   text-align: center;
