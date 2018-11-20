@@ -26,3 +26,10 @@ Resumen de todas las secciones
 1. Aliados
 1. Colaboradores
 1. Contacto
+
+- numero de alumnos
+- Temas que trabajan
+- Horas de programacion
+- Horas de DP
+- Profesores invitados
+- Trabajo en Webshops

@@ -607,7 +607,14 @@
   text-transform: none;
   text-align: center;
 }
+/** End counter **/
 
+/** GENERAL **/
+.main-paragraph {
+  font-size: 24px;
+}
+
+/** END GENERAL **/
 @media screen and (max-width: 1440px) {
   .lista_menu {
     font-size: 16px;
