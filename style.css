@@ -660,6 +660,7 @@
 
   .header-container {
     padding: 0;
+    height: 80px;
   }
   .contenedor_menu_hamburguesa {
     display: flex;
@@ -668,7 +669,9 @@
     right: 7%;
     top: 15%;
   }
-
+  .img_azul_logo {
+    width: 70%;
+  }
   /*Inicio de seccion sobre*/
 
   .sobre_sec {
@@ -745,5 +748,15 @@
   }
   .margin_left_sm {
     margin-left: 0px;
+  }
+
+  .blockquote-container blockquote,
+  .blockquote-author {
+    font-size: 18px;
+  }
+
+  .team-member-name,
+  .team-member-title {
+    font-size: 0.8rem;
   }
 }
