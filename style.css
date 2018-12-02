@@ -327,6 +327,14 @@
   background-position: center;
 }
 
+.testimonios--variante-1 {
+  background-image: url("images/fotos/_MG_2730.jpg");
+}
+
+.testimonios--variante-2 {
+  background-image: url("images/fotos/_MG_2545.jpg");
+}
+
 .testimonios .blockquote-container {
   padding: 5%;
   background-color: rgba(255, 210, 92, 0.6);
