@@ -376,7 +376,7 @@
 /*section compu-via*/
 .back_fondo {
   background-size: 100% 600px;
-  background-image: url("images/hero-background.31041728.jpg");
+  background-image: url("images/hero-background.jpg");
   width: 100%;
   /* margin-top: 150px; */
 }
@@ -525,13 +525,13 @@
 /*****************el proyectoooo*******************/
 
 .img_fond_aprender {
-  background-image: url("https://viacodigo.com/wp-content/uploads/2017/11/hero-background.jpg");
+  background-image: url("images/hero-background.jpg");
   background-color: rgba(255, 255, 255, 0);
   background-size: cover;
   padding-top: 150px;
 }
 .img_fond_objetivos {
-  background-image: url("https://viacodigo.com/wp-content/uploads/2017/11/fondo-proyecto.png");
+  background-image: url("images/fondo-proyecto.png");
   background-color: rgba(255, 255, 255, 0);
   background-size: cover;
 }

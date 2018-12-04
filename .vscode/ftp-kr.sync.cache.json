@@ -1,0 +1,11 @@
+{
+  "ftp://dolamrothseo.com@viacodigoestatica@dolamrothseo.com": {
+    ".ftpquota": {
+      "type": "-",
+      "size": 4,
+      "lmtime": 0,
+      "modified": false
+    }
+  },
+  "$version": 1
+}

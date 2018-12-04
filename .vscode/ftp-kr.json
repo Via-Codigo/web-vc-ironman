@@ -1,0 +1,13 @@
+{
+  "host": "dolamrothseo.com",
+  "username": "viacodigoestatica@dolamrothseo.com",
+  "password": "UIg[C]Cc5myu",
+  "remotePath": "/",
+  "protocol": "ftp",
+  "port": 0,
+  "fileNameEncoding": "utf8",
+  "autoUpload": false,
+  "autoDelete": false,
+  "autoDownload": false,
+  "ignore": [".git", "/.vscode"]
+}
