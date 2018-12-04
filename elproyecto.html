@@ -232,18 +232,16 @@
 	</section>
 	<!-- fin mentores -->
 	<!-- inicio testimonios -->
-	<section class=" testimonios section">
+	<section class=" testimonios section testimonios--variante-2">
 		<div class="container">
 			<div class="row">
 				<div class="blockquote-container col-12">
 					<blockquote class="">
-						Aprender a programar es aprender a fallar. Programar es difícil, a
-						veces de maneras obvias y otras veces de maneras más sutiles.
-						Aprender a programar es acostumbrarse a que las cosas salgan mal,
-						a lidiar con la frustración, y aprender a encontrar soluciones.
-						Aprender a programar le puede cambiar la vida a cualquiera.
+						La programación es una oportunidad para que ellos redefinan su masculindad, su rol en la sociedad y cómo quieren
+						relacionarse con los demás. El trabajo creativo, así sea apoyado por la tecnología, es un vehículo súper terapéutico y
+						poderoso para canalizar ese poder que los hombres adolescentes empiezan a desarrollar a esa edad.
 					</blockquote>
-					<span class="blockquote-author">Leonardo - Mentor</span>
+					<span class="blockquote-author">Denisse - Hiperderecho</span>
 				</div>
 			</div>
 		</div>
@@ -296,7 +294,7 @@
 		<div class="row ">
 			<div class="col-12 col-md-3 col-lg-3 col-sm-6">
 				<div class="dat_num_evento">
-					<span class="counter counter-percent" id="dp">50</span>
+					<span class="counter counter-percent" id="logical">50</span>
 					<h3 class="counter-title">
 						De egresados aumentó su <span class="color_RojoVC"> pensamiento lógico</span>
 					</h3>
@@ -304,7 +302,7 @@
 			</div>
 			<div class="col-12 col-md-3 col-lg-3 col-sm-6">
 				<div class="dat_num_evento">
-					<span class="counter counter-percent" id="dp">54</span>
+					<span class="counter counter-percent" id="creativity">54</span>
 					<h3 class="counter-title">
 						De egresados aumentó su <span class="color_RojoVC"> índice de creatividad e innovación</span>
 					</h3>
@@ -312,7 +310,7 @@
 			</div>
 			<div class="col-12 col-md-3 col-lg-3 col-sm-6">
 				<div class="dat_num_evento">
-					<span class="counter counter-percent" id="dp">90</span>
+					<span class="counter counter-percent" id="empathy">90</span>
 					<h3 class="counter-title">
 						De egresados aumentó su <span class="color_RojoVC"> nivel de empatía</span>
 					</h3>
@@ -320,7 +318,7 @@
 			</div>
 			<div class="col-12 col-md-3 col-lg-3 col-sm-6">
 				<div class="dat_num_evento">
-					<span class="counter counter-percent" id="dp">75</span>
+					<span class="counter counter-percent" id="solutions">75</span>
 					<h3 class="counter-title">
 						De egresados presentó mejoras en su<span class="color_RojoVC"> habilidad para solucionar problemas</span>
 					</h3>
@@ -499,9 +497,91 @@
 	 crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="bootstrap.js"></script>
+	<script src="js/vendor/countUp.min.js"></script>
 
 
 	<script type="text/javascript" src="app.js"></script>
+	<script>
+		var options = {
+			useEasing: true,
+			useGrouping: false,
+			separator: ",",
+			decimal: "."
+		};
+		var proyectos = new CountUp(
+			document.getElementById("proyectos"),
+			0,
+			25,
+			0,
+			2,
+			options
+		);
+		var horasDev = new CountUp(
+			document.getElementById("horas-dev"),
+			0,
+			500,
+			0,
+			2,
+			options
+		);
+		var placements = new CountUp(
+			document.getElementById("placements"),
+			0,
+			25,
+			0,
+			2,
+			options
+		);
+		var dp = new CountUp(
+			document.getElementById("dp"),
+			0,
+			100,
+			0,
+			2,
+			options
+		);
+		var logical = new CountUp(
+				document.getElementById("logical"),
+				0,
+				50,
+				0,
+				2,
+				options
+			);
+		var empathy = new CountUp(
+				document.getElementById("empathy"),
+				0,
+				90,
+				0,
+				2,
+				options
+			);
+		var creativity = new CountUp(
+				document.getElementById("creativity"),
+				0,
+				54,
+				0,
+				2,
+				options
+			);
+		var solutions = new CountUp(
+			document.getElementById("solutions"),
+			0,
+			55,
+			0,
+			2,
+			options
+		);
+		const counters = [placements, dp, horasDev, proyectos, creativity, empathy, solutions, logical];
+
+		for (let i = 0; i < counters.length; i++) {
+			if (!counters[i].error) {
+				counters[i].start();
+			} else {
+				console.error(counters[i].error);
+			}
+		}
+	</script>
 </body>
 
 </html>
