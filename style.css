@@ -264,7 +264,7 @@
   .team-member-panel
   .team-member-bio-wrap
   .team-member-bio {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.2;
   margin-bottom: 36px;
 }
@@ -647,6 +647,25 @@
   .header-container {
     padding: 0 40px;
   }
+  h6 {
+    font-size: 0.5rem;
+  }
+  .team-member
+    .team-member-wrap
+    .team-member-panel
+    .team-member-bio-wrap
+    .team-member-bio {
+    font-size: 0.7rem;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  .team-member
+    .team-member-wrap
+    .team-member-panel
+    .team-member-bio-wrap
+    .team-member-detail {
+    font-size: 0.8rem;
+  }
 }
 @media (max-width: 900px) {
   .lista_menu {
@@ -659,8 +678,47 @@
   .footer_padding {
     text-align: center;
   }
+
+  h6 {
+    font-size: 0.6rem;
+  }
+  .team-member
+    .team-member-wrap
+    .team-member-panel
+    .team-member-bio-wrap
+    .team-member-bio {
+    font-size: 0.4rem;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  .team-member
+    .team-member-wrap
+    .team-member-panel
+    .team-member-bio-wrap
+    .team-member-detail {
+    font-size: 0.5rem;
+  }
 }
 @media screen and (max-width: 768px) {
+  h6 {
+    font-size: 0.8rem;
+  }
+  .team-member
+    .team-member-wrap
+    .team-member-panel
+    .team-member-bio-wrap
+    .team-member-bio {
+    font-size: 0.8rem;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  .team-member
+    .team-member-wrap
+    .team-member-panel
+    .team-member-bio-wrap
+    .team-member-detail {
+    font-size: 0.8rem;
+  }
   /*menu oculto xs y lg*/
   .menu_grande {
     display: none;
@@ -765,6 +823,12 @@
 
   .team-member-name,
   .team-member-title {
-    font-size: 0.8rem;
+    font-size: 0.5rem;
   }
+}
+
+.allies {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
 }
