@@ -41,9 +41,9 @@
     "images": {},
     "index.html": {
       "type": "-",
-      "size": 38208,
+      "size": 39343,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     "involucrate.html": {
       "type": "-",
@@ -54,9 +54,9 @@
     "js": {},
     "style.css": {
       "type": "-",
-      "size": 14879,
+      "size": 16096,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     }
   },
   "$version": 1
