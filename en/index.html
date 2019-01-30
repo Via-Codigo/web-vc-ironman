@@ -1,1012 +1,841 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Via Codigo</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="bootstrap.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Oxygen"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="../bower_components/tiny-slider/dist/tiny-slider.css"
-    />
-    <link rel="stylesheet" type="text/css" href="../style.css" />
-  </head>
+<html lang="en">
 
-  <body>
-    <!-- Inicio de section logo-menu -->
-    <header class="header-container" id="menuPrincipal">
-      <h1 class="logo_principal">
-        <a href="/"
-          ><img src="../images/logo_azul.svg" class="img_azul_logo" id="logoTop"
-        /></a>
-      </h1>
-      <nav class="menu_navegacion">
-        <ul class="menu_grande">
-          <li class="lista_menu itemMenu">
-            <a class="hover_rojoVC  color_AzulVC" href="/">INICIO</a>
-          </li>
-          <li class="lista_menu itemMenu">
-            <a class="hover_rojoVC  color_AzulVC" href="involucrate.html"
-              >INVOLUCRATE</a
-            >
-          </li>
-          <!--
+<head>
+  <title>Vía Código</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="bootstrap.css" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="../bower_components/tiny-slider/dist/tiny-slider.css" />
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+</head>
+
+<body>
+  <!-- section logo-menu HOME -->
+  <header class="header-container" id="menuPrincipal">
+    <h1 class="logo_principal">
+      <a href="/"><img src="../images/logo_azul.svg" class="img_azul_logo" id="logoTop" /></a>
+    </h1>
+    <nav class="menu_navegacion">
+      <ul class="menu_grande">
+        <li class="lista_menu itemMenu">
+          <a class="hover_rojoVC  color_AzulVC" href="/">HOME</a>
+        </li>
+        <li class="lista_menu itemMenu">
+          <a class="hover_rojoVC  color_AzulVC" href="get-involved.html">GET INVOLVED</a>
+        </li>
+        <!--
             <li class="lista_menu itemMenu">
               <a class="hover_rojoVC  color_AzulVC" href="demos.html"
-                >Qué Hacemos</a
+                >What we do</a
               >
             </li>
             <li class="lista_menu itemMenu">
-              <a class="hover_rojoVC  color_AzulVC" href="demos.html">Nosotros</a>
+              <a class="hover_rojoVC  color_AzulVC" href="demos.html">About us</a>
             </li>
           -->
-          <li class="lista_menu itemMenu">
-            <a class="hover_rojoVC  color_AzulVC" href="elproyecto.html"
-              >PROYECTOS</a
-            >
-          </li>
-          <li class="lista_menu itemMenu">
-            <a
-              class="hover_rojoVC  color_AzulVC"
-              target="_blank"
-              href="https://webshop.viacodigo.com"
-              >WEBSHOP</a
-            >
-          </li>
-          <li class="lista_menu itemMenu">
-            <a
-              class="hover_rojoVC  color_AzulVC"
-              href="https://blog.viacodigo.com"
-              >BLOG</a
-            >
-          </li>
-          <!--
+        <li class="lista_menu itemMenu">
+          <a class="hover_rojoVC  color_AzulVC" href="the-project.html">THE PROJECT</a>
+        </li>
+        <li class="lista_menu itemMenu">
+          <a class="hover_rojoVC  color_AzulVC" target="_blank" href="https://webshop.viacodigo.com">WEBSHOP</a>
+        </li>
+        <li class="lista_menu itemMenu">
+          <a class="hover_rojoVC  color_AzulVC" href="https://blog.viacodigo.com">BLOG</a>
+        </li>
+        <!--
             <li class="lista_menu itemMenu">
               <a class="hover_rojoVC  color_AzulVC" href="#"
                 ><img src="images/icon_eeuu.png"
               /></a>
             </li>
           -->
-        </ul>
-        <div class="contenedor_menu_hamburguesa">
-          <div id="menuH" class="menuHA">
-            <span></span> <span></span> <span></span>
-          </div>
+      </ul>
+      <div class="contenedor_menu_hamburguesa">
+        <div id="menuH" class="menuHA">
+          <span></span> <span></span> <span></span>
         </div>
-        <div id="menuApa" class="menuCasi">
-          <ul class="menu_celular">
-            <li class="border_bottom_azul">
-              <a class="menu_celularEnlace" href="/">INICIO</a>
-            </li>
-            <li class="border_bottom_azul">
-              <a class="menu_celularEnlace" href="involucrate.html"
-                >INVOLUCRATE</a
-              >
-            </li>
-            <!--
+      </div>
+      <div id="menuApa" class="menuCasi">
+        <ul class="menu_celular">
+          <li class="border_bottom_azul">
+            <a class="menu_celularEnlace" href="/">HOME</a>
+          </li>
+          <li class="border_bottom_azul">
+            <a class="menu_celularEnlace" href="get-involved.html">GET INVOLVED</a>
+          </li>
+          <!--
               <li class="border_bottom_azul">
-                <a class="menu_celularEnlace" href="elproyecto.html"
-                  >Qué Hacemos</a
+                <a class="menu_celularEnlace" href="the-project.html"
+                  >What we do</a
                 >
               </li>
               <li class="border_bottom_azul">
-                <a class="menu_celularEnlace" href="elproyecto.html">Nosotros</a>
+                <a class="menu_celularEnlace" href="the-project.html">About us</a>
               </li>
             -->
-            <li class="border_bottom_azul">
-              <a class="menu_celularEnlace" href="elproyecto.html">Proyectos</a>
-            </li>
-            <li class="border_bottom_azul">
-              <a class="menu_celularEnlace" href="https://webshop.viacodigo.com"
-                >WEBSHOP</a
-              >
-            </li>
-            <li class="border_bottom_azul">
-              <a class="menu_celularEnlace" href="https://blog.viacodigo.com"
-                >BLOG</a
-              >
-            </li>
+          <li class="border_bottom_azul">
+            <a class="menu_celularEnlace" href="the-project.html">THE PROJECT</a>
+          </li>
+          <li class="border_bottom_azul">
+            <a class="menu_celularEnlace" href="https://webshop.viacodigo.com">WEBSHOP</a>
+          </li>
+          <li class="border_bottom_azul">
+            <a class="menu_celularEnlace" href="https://blog.viacodigo.com">BLOG</a>
+          </li>
 
-            <!--
+          <!--
               <li class="border_bottom_azul"><a class="menu_celularEnlace" href="#"><img src="images/icon_eeuu.png"></a></li>
             -->
-          </ul>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- section logo-menu end -->
+  <div class="slider">
+    <!-- iframe HOME -->
+    <section class="barra_youVideo">
+      <div class="iframe_youtube_container">
+        <iframe class="video" src="https://www.youtube-nocookie.com/embed/x7l3ne_o_w8?rel=0&amp;controls=1&amp;autoplay=0"
+          frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </section>
+    <!-- iframe end -->
+    <!-- Learn to learn section HOME -->
+    <section class="img_fond_aprender">
+      <div class="row">
+        <div class="div_centrado">
+          <img src="../images/foquito.png" class="img_comp" />
         </div>
-      </nav>
-    </header>
-    <!-- Fin de section logo-menu -->
-    <div class="slider">
-      <!-- inicio de iframe -->
-      <section class="barra_youVideo">
-        <div class="iframe_youtube_container">
-          <iframe
-            class="video"
-            src="https://www.youtube-nocookie.com/embed/x7l3ne_o_w8?rel=0&amp;controls=1&amp;autoplay=0"
-            frameborder="0"
-            allow="autoplay; encrypted-media"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </section>
-      <!-- fin de iframe -->
-      <!-- Inicio de seccion de Aprendamos a aprender -->
-      <section class="img_fond_aprender">
-        <div class="row">
-          <div class="div_centrado">
-            <img src="../images/foquito.png" class="img_comp" />
-          </div>
-        </div>
-        <div>
-          <h2 class="titulo_secundario color_AzulVC">
-            APRENDAMOS <br />
-            <span class="color_RojoVC">A APRENDER</span>
-          </h2>
-        </div>
-        <div class="row div_line">
-          <div class="div_centrado marg_b">
-            <img class="line_5 line" src="../images/line2.png" />
-          </div>
-        </div>
-      </section>
-      <!-- Fin de seccion de Aprendamos a aprender -->
-    </div>
-    <ul
-      class="controls"
-      id="customize-controls"
-      aria-label="Carousel Navigation"
-      tabindex="0"
-    >
-      <li
-        class="prev"
-        data-controls="prev"
-        aria-controls="customize"
-        tabindex="-1"
-      >
-        <i class="fas fa-angle-left fa-5x"></i>
-      </li>
-      <li
-        class="next"
-        data-controls="next"
-        aria-controls="customize"
-        tabindex="-1"
-      >
-        <i class="fas fa-angle-right fa-5x"></i>
-      </li>
-    </ul>
-
-    <!-- logos prensa -->
-    <section class=" container-fluid margin_t_sm logos">
-      <div class="margin_b_sm">
-        <div class="centrado_meto">
-          <div>
-            <h3 class="titulo_terciario color_RojoVC">
-              <span class="titulo_terciario color_AzulVC">Notas de </span>
-              Prensa
-            </h3>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class=" col-12 col-sm-3  logo">
-              <a href="#" target="_blank">
-                <img
-                  src="https://assets.trome.pe/img/logo_trome.png?1540487995"
-                  class="img-fluid"
-              /></a>
-            </div>
-            <div class=" col-12 col-sm-3  logo">
-              <a href="#" target="_blank">
-                <img
-                  src="../images/logos/la-republica.svg"
-                  style="background-color: red;"
-                  class="img-fluid"
-              /></a>
-            </div>
-            <div class=" col-12 col-sm-3 logo ">
-              <a href="#" target="_blank">
-                <img
-                  src="https://diariocorreo.pe/static/diariocorreo_redesign/img/logo-correo.png"
-                  class="img-fluid"
-                  style="background-color: grey;"
-              /></a>
-            </div>
-            <div class=" col-12 col-sm-3  logo">
-              <a href="#" target="_blank">
-                <img
-                  src="https://img.gestion.pe/bundles/appcms/images/gestion/logo_gestion.png?1540571031"
-                  class="img-fluid"
-              /></a>
-            </div>
-          </div>
+      </div>
+      <div>
+        <h2 class="titulo_secundario color_AzulVC">
+          LEARN TO <br />
+          <span class="color_RojoVC">LEARN</span>
+        </h2>
+      </div>
+      <div class="row div_line">
+        <div class="div_centrado marg_b">
+          <img class="line_5 line" src="../images/line2.png" />
         </div>
       </div>
     </section>
-    <!-- fin logos prensa -->
-    <!-- Inicio de seccion de sobre -->
-    <!-- inicio testimonios -->
-    <section class=" testimonios section">
-      <div class="container">
-        <div class="row">
-          <div class="blockquote-container col-12">
-            <blockquote class="">
-              Aprender a programar es aprender a fallar. Programar es difícil, a
-              veces de maneras obvias y otras veces de maneras más sutiles.
-              Aprender a programar es acostumbrarse a que las cosas salgan mal,
-              a lidiar con la frustración, y aprender a encontrar soluciones.
-              Aprender a programar le puede cambiar la vida a cualquiera.
-            </blockquote>
-            <span class="blockquote-author">Leonardo - Mentor</span>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- fin testimonios -->
+    <!-- Learn to learn section end -->
+  </div>
+  <ul class="controls" id="customize-controls" aria-label="Carousel Navigation" tabindex="0">
+    <li class="prev" data-controls="prev" aria-controls="customize" tabindex="-1">
+      <i class="fas fa-angle-left fa-5x"></i>
+    </li>
+    <li class="next" data-controls="next" aria-controls="customize" tabindex="-1">
+      <i class="fas fa-angle-right fa-5x"></i>
+    </li>
+  </ul>
 
-    <!-- Inicio sección contadores -->
-    <section class="quienSon_sec container-fluid">
+  <!-- press logos HOME -->
+  <section class=" container-fluid margin_t_sm logos">
+    <div class="margin_b_sm">
       <div class="centrado_meto">
         <div>
           <h3 class="titulo_terciario color_RojoVC">
-            <span class="titulo_terciario color_AzulVC">Estación</span> La Paz
+            <span class="titulo_terciario color_AzulVC">Press </span>
+            Releases
+          </h3>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class=" col-12 col-sm-3  logo">
+            <a href="#" target="_blank">
+              <img src="https://assets.trome.pe/img/logo_trome.png?1540487995" class="img-fluid" /></a>
+          </div>
+          <div class=" col-12 col-sm-3  logo">
+            <a href="#" target="_blank">
+              <img src="../images/logos/la-republica.svg" style="background-color: red;" class="img-fluid" /></a>
+          </div>
+          <div class=" col-12 col-sm-3 logo ">
+            <a href="#" target="_blank">
+              <img src="https://diariocorreo.pe/static/diariocorreo_redesign/img/logo-correo.png" class="img-fluid"
+                style="background-color: grey;" /></a>
+          </div>
+          <div class=" col-12 col-sm-3  logo">
+            <a href="#" target="_blank">
+              <img src="https://img.gestion.pe/bundles/appcms/images/gestion/logo_gestion.png?1540571031" class="img-fluid" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- press logos end -->
+  <!-- Inicio de seccion de sobre -->
+  <!-- inicio testimonios -->
+  <section class=" testimonios section">
+    <div class="container">
+      <div class="row">
+        <div class="blockquote-container col-12">
+          <blockquote class="">
+            Learning to program is learning to fail. Programming is difficult,
+            sometimes in obvious ways and sometimes in moresubtle ways.
+            Learning to program is getting used to things going wrong,
+            dealing with frustration, and learning to find solutions.
+            Learning to program can change a person’s life.
+          </blockquote>
+          <span class="blockquote-author">Leonardo - Mentor</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- fin testimonios -->
+
+  <!-- Inicio sección contadores -->
+  <section class="quienSon_sec container-fluid">
+    <div class="centrado_meto">
+      <div>
+        <h3 class="titulo_terciario color_RojoVC">
+          <span class="titulo_terciario color_AzulVC">La Paz</span> Station
+        </h3>
+      </div>
+      <div><img src="../images/line.png" class="line_1 line" /></div>
+      <div>
+        <p class="color_grisLetras">
+          The students of the first batch got amazing results,
+          showing that from the CJDRL (Maranguita)
+          they can also be programmers!
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-3 col-lg-3 col-sm-6">
+        <div class="dat_num_evento">
+          <span class="counter counter-plus" id="proyectos">25</span>
+          <h3 class="counter-title">
+            Projects <span class="color_RojoVC"> per student</span>
+          </h3>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 col-lg-3 col-sm-6">
+        <div class="dat_num_evento">
+          <span class="counter counter-hour" id="horas-dev"> 500</span>
+          <h3 class="counter-title">
+            Hours <span class="color_RojoVC"> of coding</span>
+          </h3>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 col-lg-3 col-sm-6">
+        <div class="dat_num_evento">
+          <span class="counter counter-percent" id="placements"> 25</span>
+          <h3 class="counter-title">
+            work as
+            <span class="color_RojoVC"> web developers</span>
+          </h3>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 col-lg-3 col-sm-6">
+        <div class="dat_num_evento">
+          <span class="counter counter-plus" id="dp">100</span>
+          <h3 class="counter-title">
+            Hours of <span class="color_RojoVC"> personal development</span>
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="display_f jcc margin_t_sm">
+      <a href="the-project.html#resultados" class="color_RojoVC enlace_tipoBoton t_center">SEE MORE</a>
+    </div>
+  </section>
+  <!-- fin sección contadores -->
+
+  <!-- Inicio de seccion quien son -->
+  <section class="quienSon_sec container-fluid">
+    <div>
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="img_her">
+            <img src="../images/imgHer.png" class="imag_tor" />
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="display_f">
+            <img src="../images/line2.png" class="line_4 line" />
+            <h3 class="titulo_terciario color_AzulVC">
+              WHO <br />
+              <span class="color_RojoVC ">WE ARE</span>
+            </h3>
+          </div>
+          <div>
+            <p class="color_grisLetras">
+              Multidisciplinary team formed by Philosophers, Psychologists,
+              Communicators, Programmers and Researchers in search of the
+              perfect combination of our knowledge for the sake of education.
+              We try to contribute each one of our specialties to promote
+              the quality of our students’ learning.
+            </p>
+            <p class="color_grisLetras">
+              From the promotion of reflection in the classroom to the
+              implementation of the newest web programming methodologies.
+              From the differentiated treatment to the group dynamics,
+              the entire Vía Codigo team works together to ensure the
+              effectiveness of our curriculum.
+            </p>
+            <!--
+                <a
+                  href="nosotros.html"
+                  class="color_RojoVC enlace_tipoBoton t_center"
+                  >SEE MORE</a
+                >
+              -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Fin de seccion quien son -->
+  <section class="  container-fluid  ">
+    <div class="margin_b_sm">
+      <div class="centrado_meto">
+        <div>
+          <h3 class="titulo_terciario color_RojoVC">
+            <span class="titulo_terciario color_AzulVC">The </span> Team
+          </h3>
+        </div>
+        <div><img src="../images/line.png" class="line_1 line" /></div>
+        <div>
+          <p class="color_grisLetras"></p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12  col-sm-6 col-md-4 team-member">
+            <div class="team-member-wrap">
+              <div class="team-member-photo" style="background-image: url('../images/fotos/pedro-340.jpg');"></div>
+              <div class="team-member-panel">
+                <h6 class="team-member-name">Pedro Baumann</h6>
+                <p class="small italic-serif team-member-title">
+                  Executive Director - Founder
+                </p>
+                <div class="team-member-bio-wrap middle">
+                  <p class="team-member-bio">
+                    Psychologist, Psychotherapist, Programmer.
+                    Former founding member of the Anankhe Psychotherapy
+                    Center in Madrid, founding partner of Athelas and
+                    founding partner of Vía Código, he has been working with
+                    adolescents and technology for more than 13 years.
+                    He developed the Vía Código methodology to be a system of
+                    education in integral programming. He currently
+                    runs Vía Código and is the teacher trainer.<br />
+                  </p>
+                  <h6>Outside of Vía Código</h6>
+                  <p class="team-member-detail">
+                    Loves team videogames, cooking and teaching programming.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12  col-sm-6 col-md-4 team-member">
+            <div class="team-member-wrap">
+              <div class="team-member-photo" style="background-image: url('../images/fotos/alex-340.jpg');"></div>
+              <div class="team-member-panel">
+                <h6 class="team-member-name">Alex Zavaleta</h6>
+                <p class="small italic-serif team-member-title">
+                  Project Coordinator
+                </p>
+                <div class="team-member-bio-wrap middle">
+                  <p class="team-member-bio">
+                    Psychologist. Project Coordinator at Vía Código.
+                    He has worked as a designer, evaluator, project systematizer.
+                    Teacher / specialist in courses of the Center of
+                    Investigations and Educational Services - PUCP.
+                    Member of the Research Group “Drugs, Coexistence and
+                    Citizen Safety” of the Department of Psychology of the PUCP.
+                    Project assistant at Lima University - CIES.
+                    <br />
+                  </p>
+                  <h6>Outside of Vía Código</h6>
+                  <p class="team-member-detail">
+                    Die-hard Otaku, collects anime action figures and
+                    will never have enough.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12  col-sm-6 col-md-4 team-member">
+            <div class="team-member-wrap" data-color="red">
+              <div class="team-member-photo" style="background-image: url('../images/fotos/maricarmen-340.jpg');"></div>
+              <div class="team-member-panel">
+                <h6 class="team-member-name">Maria del Carmen Torre</h6>
+                <p class="small italic-serif team-member-title">
+                  Personal Development Coordinator
+                </p>
+                <div class="team-member-bio-wrap middle">
+                  <p class="team-member-bio">
+                    Psychologist, Masters graduate in Clinical Psychology and
+                    Health, with training in Cognitive Behavioral
+                    Psychotherapy. She has worked in the educational area at
+                    colleges and universities. With experience in different
+                    volunteer programs with teenagers at risk, she has
+                    participated in the Proyectate fellowship for the Coding
+                    program in Villa María del Triunfo. Currently, Coordinator
+                    of the Personal Development area of Vía Código. <br />
+                  </p>
+                  <h6>Outside of Vía Código</h6>
+                  <p class="team-member-detail">
+                    Expert pastry chef and dancer of traditional dances
+                    such as Caporales.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12  col-sm-6 col-md-4 team-member">
+            <div class="team-member-wrap" data-color="red">
+              <div class="team-member-photo" style="background-image: url('../images/fotos/juan-340.jpg');"></div>
+              <div class="team-member-panel">
+                <h6 class="team-member-name">Juan Francisco Vegas</h6>
+                <p class="small italic-serif team-member-title">Psychologist</p>
+                <div class="team-member-bio-wrap middle">
+                  <p class="team-member-bio">
+                    Psychologist trained in Behavioral-Contextual Therapy
+                    (especially DBT and ACT), has worked as a psychologist in
+                    the individual and group care of adolescents with
+                    addictions in both outpatient and
+                    residential programs (therapeutic community).<br />
+                  </p>
+                  <h6>Outside of Vía Código</h6>
+                  <p class="team-member-detail">
+                    Martial arts expert such as Kung-Fu and fan of chess.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12  col-sm-6 col-md-4 team-member">
+            <div class="team-member-wrap" data-color="red">
+              <div class="team-member-photo" style="background-image: url('../images/fotos/carlos-340.jpg');"></div>
+              <div class="team-member-panel">
+                <h6 class="team-member-name">Carlos Ganoza</h6>
+                <p class="small italic-serif team-member-title">
+                  Programming Teacher
+                </p>
+                <div class="team-member-bio-wrap middle">
+                  <p class="team-member-bio">
+                    Computer Engineer, full-stack developer with several
+                    years of experience in software development in different
+                    HOMEups in Peru and abroad, passionate about Open Source.
+                    Expert in computer security.
+                    Member of OWASP (Open Web Application Security Project).
+                    He was the first volunteer of Vía Código and is currently
+                    helping to develop the new curriculum. <br />
+                  </p>
+                  <h6>Outside of Vía Código</h6>
+                  <p class="team-member-detail">
+                    Addict to logical puzzles and Rubik cubes,
+                    lover of movies and <a href="https://en.wikipedia.org/wiki/Numismatics">numismatics</a>.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- logos aliados -->
+  <section class=" meto_sec container-fluid  logos">
+    <div class="margin_b_sm">
+      <div class="centrado_meto">
+        <div>
+          <h3 class="titulo_terciario color_RojoVC">
+            <span class="titulo_terciario color_AzulVC">Our</span>
+            Partners
           </h3>
         </div>
         <div><img src="../images/line.png" class="line_1 line" /></div>
         <div>
           <p class="color_grisLetras">
-            Los alumnos de la primera promoción consiguieron resultados
-            alucinantes, mostrando que desde el CJDRL (Maranguita) también
-            pueden ser programadores!
+            Vía Código works with a powerful network of partners that share
+            our mission of bringing quality education and betting on
+            social reintegration in adolescents in conflict
+            with the criminal law.
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <h3 class="margin_b_sm">International Partners</h3>
+        <div class="allies">
+          <div class="col-12 col-sm-3 logo">
+            <a href="https://www.transformify.org" target="_blank">
+              <img src="../images/logos/transformify.png" class="img-fluid" />
+            </a>
+          </div>
+          <div class=" col-12 col-sm-3 logo ">
+            <a href="https://www.fondationforge.org/" target="_blank">
+              <img src="../images/logos/forge.png" class="img-fluid" style="background-color: grey;" /></a>
+          </div>
+          <div class=" col-12 col-sm-3 logo ">
+            <a href="https://www.re-coded.com/" target="_blank">
+              <img src="../images/logos/recoded.png" class="img-fluid" style="background-color: grey;" /></a>
+          </div>
+          <div class="col-12 col-sm-3 logo">
+            <a href="https://www.girlscode.com.py" target="_blank">
+              <img src="../images/logos/girlscode.png" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col-12 col-sm-3 logo">
+            <a href="https://www.scripted.org" target="_blank">
+              <img src="../images/logos/scripted.png" class="img-fluid" />
+            </a>
+          </div>
+        </div>
+        <h3 class="margin_b_sm">National Partners</h3>
+        <div class="allies">
+          <div class=" col-12 col-sm-3  logo">
+            <a href="https://area51.pe/2018/" target="_blank">
+              <img src="../images/logos/area51.png" class="img-fluid" /></a>
+          </div>
+          <div class=" col-12 col-sm-3  logo">
+            <a href="https://codigoux.com/" target="_blank">
+              <img src="../images/logos/codigoux-color.svg" class="img-fluid" /></a>
+          </div>
+          <div class=" col-12 col-sm-3  logo">
+            <a href="https://www.athelas.pe/" target="_blank">
+              <img src="../images/logos/athelas.svg" class="img-fluid" /></a>
+          </div>
+        </div>
+        <!--
+            <a
+              href="the-project.html"
+              class="color_RojoVC enlace_tipoBoton t_center"
+              >SEE MORE</a
+            >
+          -->
+      </div>
+    </div>
+  </section>
+  <!-- inicio testimonios -->
+  <section class=" testimonios testimonios--variante-1 section">
+    <div class="container">
+      <div class="row">
+        <div class="blockquote-container col-12">
+          <blockquote class="">
+            Vía Código is based on the principle that if a student is in a
+            positive environment and support, has the opportunity to
+            grow as a person, regardless of their stories and what they have
+            been through. Vía Código is creating a positive support
+            environment for these students, in a place where it is not easy
+            for them to feel good about themselves.
+          </blockquote>
+          <span class="blockquote-author">Eric - Mentor</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- fin testimonios -->
+  <!-- Inicio de seccion metodos -->
+  <section class="meto_sec container-fluid">
+    <div class="margin_b_sm">
+      <div class="centrado_meto">
+        <div>
+          <h3 class="titulo_terciario color_AzulVC">
+            PROGRAM <br />
+            <span class="color_RojoVC">METHODOLOGY</span>
+          </h3>
+        </div>
+        <div><img src="../images/line.png" class="line_1 line" /></div>
+        <div>
+          <p class="color_grisLetras">
+            Vía Código bases its teaching methodology on competency-based
+            learning, a type of education that focuses on the
+            development of generic or transversal competences (instrumental,
+            interpersonal and systemic) and specific competences
+            (specific to each profession). The objective of competency-based
+            learning is to prepare the subject for development in
+            diverse and complex contexts, integrating their knowledge and
+            their own attitudes and values, personally and professionally.
+            This way, we use programming as a motor for the development of
+            both technical and human competences.
           </p>
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-3 col-lg-3 col-sm-6">
-          <div class="dat_num_evento">
-            <span class="counter counter-plus" id="proyectos">25</span>
-            <h3 class="counter-title">
-              Proyectos <span class="color_RojoVC"> por alumno</span>
-            </h3>
+        <div class="col-lg-3 col-xs-12">
+          <div><img src="../images/diamon.png" class="imag_peq_go" /></div>
+          <div>
+            <h4 class="titulo_cuaternario color_AzulVC">
+              COMPREHENSIVE <span class="color_RojoVC">SELECTION</span>
+            </h4>
+          </div>
+          <div><img src="../images/line.png" class="line_1 line" /></div>
+          <div class="color_grisLetras">
+            <p>
+              A personalized evaluation methodology covers 5 areas:
+              Technological Affinity, Life Plan, Family Support Network,
+              Cognitive Skills and Communication Skills.
+            </p>
           </div>
         </div>
-        <div class="col-12 col-md-3 col-lg-3 col-sm-6">
-          <div class="dat_num_evento">
-            <span class="counter counter-hour" id="horas-dev"> 500</span>
-            <h3 class="counter-title">
-              Horas <span class="color_RojoVC"> de programación</span>
-            </h3>
+        <div class="col-lg-3 col-xs-12">
+          <div><img src="../images/mano.png" class="imag_peq_go" /></div>
+          <div>
+            <h4 class="titulo_cuaternario color_AzulVC">
+              PERSONALIZED <span class="color_RojoVC">TEACHING</span>
+            </h4>
+          </div>
+          <div><img src="../images/line.png" class="line_1 line" /></div>
+          <div class="color_grisLetras">
+            <p>
+              We know that education begins with the bond. That is why four
+              professionals, including psychologists and programmers,
+              accompany the students in each class.
+            </p>
           </div>
         </div>
-        <div class="col-12 col-md-3 col-lg-3 col-sm-6">
-          <div class="dat_num_evento">
-            <span class="counter counter-percent" id="placements"> 25</span>
-            <h3 class="counter-title">
-              trabajando como
-              <span class="color_RojoVC"> programadores web</span>
-            </h3>
+        <div class="col-lg-3 col-xs-12">
+          <div><img src="../images/corazon.png" class="imag_peq_go" /></div>
+          <div>
+            <h4 class="titulo_cuaternario color_AzulVC">
+              PSYCHOLOGICAL <span class="color_RojoVC">ACCOMPANIMENT</span>
+            </h4>
+          </div>
+          <div><img src="../images/line.png" class="line_1 line" /></div>
+          <div class="color_grisLetras">
+            <p>
+              With personal therapy, group workshops, soft skills development,
+              gender work, life plan development and more, our psychological
+              team manages to intensely impact the lives of the participants.
+            </p>
           </div>
         </div>
-        <div class="col-12 col-md-3 col-lg-3 col-sm-6">
-          <div class="dat_num_evento">
-            <span class="counter counter-plus" id="dp">100</span>
-            <h3 class="counter-title">
-              Horas de <span class="color_RojoVC"> desarrollo personal</span>
-            </h3>
+        <div class="col-lg-3 col-xs-12">
+          <div><img src="../images/estrellas.png" class="imag_peq_go" /></div>
+          <div>
+            <h4 class="titulo_cuaternario color_AzulVC">
+              QUALITY <span class="color_RojoVC">TRAINING</span>
+            </h4>
+          </div>
+          <div><img src="../images/line.png" class="line_1 line" /></div>
+          <div class="color_grisLetras">
+            <p>
+              Students become front-end developers of international level.
+              They learn Fundamentals of Computing to understand what is
+              happening when they talk with computers. They master HTML to
+              enhance the content of the websites and receive
+              <a target="_blank" href="https://github.com/Via-Codigo/curricula2018/blob/master/Talleres.md">extra
+                training</a>
+              by nationally and internationally recognized professionals.
+            </p>
           </div>
         </div>
       </div>
-      <div class="display_f jcc margin_t_sm">
-        <a
-          href="elproyecto.html#resultados"
-          class="color_RojoVC enlace_tipoBoton t_center"
-          >VER MÁS</a
-        >
-      </div>
-    </section>
-    <!-- fin sección contadores -->
-
-    <!-- Inicio de seccion quien son -->
-    <section class="quienSon_sec container-fluid">
-      <div>
-        <div class="row">
-          <div class="col-lg-5">
-            <div class="img_her">
-              <img src="../images/imgHer.png" class="imag_tor" />
-            </div>
+    </div>
+    <a href="the-project.html" class="color_RojoVC enlace_tipoBoton t_center">SEE MORE</a>
+  </section>
+  <!-- Fin de seccion metodos -->
+  <!-- Seccion de suscribe -->
+  <section class="img_escondidaD">
+    <div class="suscrib_sec img_escondidaI">
+      <div class="row jcc">
+        <div class="col-lg-6 t_center">
+          <div>
+            <h3 class="titulo_terciario color_AzulVC">SUBSCRIBE</h3>
           </div>
-          <div class="col-lg-7">
-            <div class="display_f">
-              <img src="../images/line2.png" class="line_4 line" />
-              <h3 class="titulo_terciario color_AzulVC">
-                QUIÉNES <br />
-                <span class="color_RojoVC ">SOMOS</span>
-              </h3>
-            </div>
-            <div>
-              <p class="color_grisLetras">
-                Equipo multidisciplinario conformado por Filósofos, Psicólogos,
-                Comunicadores, Programadores e Investigadores en búsqueda de la
-                combinación perfecta de sus saberes por el bien de la educación.
-                Intentamos aportar cada uno desde sus especialidades para
-                fomentar la calidad del aprendizaje de nuestros alumnos.
-              </p>
-              <p class="color_grisLetras">
-                Desde la promoción de la reflexión en el aula hasta la
-                implementación de las más nuevas metodologías de programación
-                web. Desde el tratamiento diferenciado hasta las dinámicas de
-                grupo, todo el equipo de Vía Código trabaja en conjunto para
-                asegurar la eficacia de nuestra currícula.
-              </p>
+          <div><img src="../images/line.png" class="line_1 line" /></div>
+          <div class="color_grisLetras">
+            <p>
+              Do you want to know more about Vía Código? <br />
+              Subscribe to our
+              <span class="color_RojoVC">newsletter</span> and we’ll keep you
+              up to date.
+            </p>
+          </div>
+          <div>
+            <form action="https://viacodigo.us16.list-manage.com/subscribe/post?u=a56e283be9b16067bdb429c6d&amp;id=2f4683caf9"
+              method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate container"
+              target="_blank" novalidate="">
               <!--
-                <a
-                  href="nosotros.html"
-                  class="color_RojoVC enlace_tipoBoton t_center"
-                  >SABER MÁS</a
-                >
-              -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Fin de seccion quien son -->
-    <section class="  container-fluid  ">
-      <div class="margin_b_sm">
-        <div class="centrado_meto">
-          <div>
-            <h3 class="titulo_terciario color_RojoVC">
-              <span class="titulo_terciario color_AzulVC">El </span> Equipo
-            </h3>
-          </div>
-          <div><img src="../images/line.png" class="line_1 line" /></div>
-          <div><p class="color_grisLetras"></p></div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-12  col-sm-6 col-md-4 team-member">
-              <div class="team-member-wrap">
-                <div
-                  class="team-member-photo"
-                  style="background-image: url('../images/fotos/pedro-340.jpg');"
-                ></div>
-                <div class="team-member-panel">
-                  <h6 class="team-member-name">Pedro Baumann</h6>
-                  <p class="small italic-serif team-member-title">
-                    Director Ejecutivo - Fundador
-                  </p>
-                  <div class="team-member-bio-wrap middle">
-                    <p class="team-member-bio">
-                      Psicólogo, Psicoterapeuta, Programador. Ex Socio fundador
-                      del Centro de Psicoterapia Anankhe en Madrid, Socio
-                      fundador de Athelas y Socio fundador de Vía Código,
-                      trabaja con adolescentes y tecnología hace más de 13 años.
-                      Desarrolló la metodología de Vía Código para que fuese un
-                      sistema de educación en programación integral. Actualmente
-                      dirige Vía Código y es el capacitador de profesores.<br />
-                    </p>
-                    <h6>Fuera de Vía Código</h6>
-                    <p class="team-member-detail">
-                      Ama los videojuegos en equipo, la cocina y enseñar
-                      programación
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12  col-sm-6 col-md-4 team-member">
-              <div class="team-member-wrap">
-                <div
-                  class="team-member-photo"
-                  style="background-image: url('../images/fotos/alex-340.jpg');"
-                ></div>
-                <div class="team-member-panel">
-                  <h6 class="team-member-name">Alex Zavaleta</h6>
-                  <p class="small italic-serif team-member-title">
-                    Coordinador de Proyectos
-                  </p>
-                  <div class="team-member-bio-wrap middle">
-                    <p class="team-member-bio">
-                      Psicólogo. Coordinador de Proyectos de Vía Código. Ha
-                      trabajado como diseñador, evaluador, sistematizador de
-                      proyectos. Docente/especialista en cursos del Centro de
-                      Investigaciones y Servicios Educativos – PUCP. Miembro del
-                      Grupo de Investigación “Drogas, Convivencia y Seguridad
-                      Ciudadana” del Departamento de Psicología de la PUCP.
-                      Asistente de proyectos en Universidad de Lima - CIES.
-                      <br />
-                    </p>
-                    <h6>Fuera de Vía Código</h6>
-                    <p class="team-member-detail">
-                      Otaku accerimo, colecciona figuras de acción de ánime y
-                      nunca tendrá suficientes
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12  col-sm-6 col-md-4 team-member">
-              <div class="team-member-wrap" data-color="red">
-                <div
-                  class="team-member-photo"
-                  style="background-image: url('../images/fotos/maricarmen-340.jpg');"
-                ></div>
-                <div class="team-member-panel">
-                  <h6 class="team-member-name">Maria del Carmen Torre</h6>
-                  <p class="small italic-serif team-member-title">
-                    Coordinadora Desarrollo Personal
-                  </p>
-                  <div class="team-member-bio-wrap middle">
-                    <p class="team-member-bio">
-                      Psicóloga, egresada de Maestría en Psicología clínica y de
-                      la salud, con formación en Psicoterapia Cognitivo
-                      Conductual. Ha trabajado en el área educativa en colegios
-                      y universidades. Con experiencia en diferentes programas
-                      de voluntariado con adolescentes en situación de riesgo,
-                      ha participado en el fellowship Proyéctate para el
-                      programa de Coding en Villa María del Triunfo.
-                      Actualmente, Coordinadora del área de Desarrollo Personal
-                      de Vía Código. <br />
-                    </p>
-                    <h6>Fuera de Vía Código</h6>
-                    <p class="team-member-detail">
-                      Experta repostera y danzante de danzas tradicionales como
-                      Caporales
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12  col-sm-6 col-md-4 team-member">
-              <div class="team-member-wrap" data-color="red">
-                <div
-                  class="team-member-photo"
-                  style="background-image: url('../images/fotos/juan-340.jpg');"
-                ></div>
-                <div class="team-member-panel">
-                  <h6 class="team-member-name">Juan Francisco Vegas</h6>
-                  <p class="small italic-serif team-member-title">Psicólogo</p>
-                  <div class="team-member-bio-wrap middle">
-                    <p class="team-member-bio">
-                      Psicólogo formado en Terapias contextuales - Conductuales
-                      (especialmente DBT y ACT), ha trabajado como psicólogo en
-                      la atención individual y grupal de adolescentes con
-                      adicciones tanto en programa ambulatorio como residencial
-                      (comunidad terapéutica).<br />
-                    </p>
-                    <h6>Fuera de Vía Código</h6>
-                    <p class="team-member-detail">
-                      Experto en artes marciales como el Kung-Fu y adepto del
-                      ajedréz
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-12  col-sm-6 col-md-4 team-member">
-              <div class="team-member-wrap" data-color="red">
-                <div
-                  class="team-member-photo"
-                  style="background-image: url('../images/fotos/carlos-340.jpg');"
-                ></div>
-                <div class="team-member-panel">
-                  <h6 class="team-member-name">Carlos Ganoza</h6>
-                  <p class="small italic-serif team-member-title">
-                    Profesor de Programación
-                  </p>
-                  <div class="team-member-bio-wrap middle">
-                    <p class="team-member-bio">
-                      Ingeniero Informático, desarrollador FullStack con varios
-                      años de experiencia en desarrollo de software en distintas
-                      startups del Perú y el extranjero, Apasionado del Open
-                      Source. Experto en seguridad informática. Miembro de
-                      OWASP(Open Web Application Security Project). Fue el
-                      primer voluntario de Vía Código y actualmente ayuda al
-                      desarrollo de la nueva currícula. <br />
-                    </p>
-                    <h6>Fuera de Vía Código</h6>
-                    <p class="team-member-detail">
-                      Adicto a los puzzles lógicos y los cubos Rubik, amante de
-                      las películas y la numismática.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- logos aliados -->
-    <section class=" meto_sec container-fluid  logos">
-      <div class="margin_b_sm">
-        <div class="centrado_meto">
-          <div>
-            <h3 class="titulo_terciario color_RojoVC">
-              <span class="titulo_terciario color_AzulVC">Nuestros</span>
-              Aliados
-            </h3>
-          </div>
-          <div><img src="../images/line.png" class="line_1 line" /></div>
-          <div>
-            <p class="color_grisLetras">
-              Vía Código trabaja con una potente red de aliados que comparte
-              nuestra misión de llevar educación de calidad y apostar por la
-              reinserción social en adolescentes en conflicto con la ley penal.
-            </p>
-          </div>
-        </div>
-        <div class="container">
-          <h3 class="margin_b_sm">Aliados Internacionales</h3>
-          <div class="allies">
-            <div class="col-12 col-sm-3 logo">
-              <a href="https://www.transformify.org" target="_blank">
-                <img src="../images/logos/transformify.png" class="img-fluid" />
-              </a>
-            </div>
-            <div class=" col-12 col-sm-3 logo ">
-              <a href="https://www.fondationforge.org/" target="_blank">
-                <img
-                  src="../images/logos/forge.png"
-                  class="img-fluid"
-                  style="background-color: grey;"
-              /></a>
-            </div>
-            <div class=" col-12 col-sm-3 logo ">
-              <a href="https://www.re-coded.com/" target="_blank">
-                <img
-                  src="../images/logos/recoded.png"
-                  class="img-fluid"
-                  style="background-color: grey;"
-              /></a>
-            </div>
-            <div class="col-12 col-sm-3 logo">
-              <a href="https://www.girlscode.com.py" target="_blank">
-                <img src="../images/logos/girlscode.png" class="img-fluid" />
-              </a>
-            </div>
-            <div class="col-12 col-sm-3 logo">
-              <a href="https://www.scripted.org" target="_blank">
-                <img src="../images/logos/scripted.png" class="img-fluid" />
-              </a>
-            </div>
-          </div>
-          <h3 class="margin_b_sm">Aliados Nacionales</h3>
-          <div class="allies">
-            <div class=" col-12 col-sm-3  logo">
-              <a href="https://area51.pe/2018/" target="_blank">
-                <img src="../images/logos/area51.png" class="img-fluid"
-              /></a>
-            </div>
-            <div class=" col-12 col-sm-3  logo">
-              <a href="https://codigoux.com/" target="_blank">
-                <img src="../images/logos/codigoux-color.svg" class="img-fluid"
-              /></a>
-            </div>
-            <div class=" col-12 col-sm-3  logo">
-              <a href="https://www.athelas.pe/" target="_blank">
-                <img src="../images/logos/athelas.svg" class="img-fluid"
-              /></a>
-            </div>
-          </div>
-          <!--
-            <a
-              href="elproyecto.html"
-              class="color_RojoVC enlace_tipoBoton t_center"
-              >SABER MÁS</a
-            >
-          -->
-        </div>
-      </div>
-    </section>
-    <!-- inicio testimonios -->
-    <section class=" testimonios testimonios--variante-1 section">
-      <div class="container">
-        <div class="row">
-          <div class="blockquote-container col-12">
-            <blockquote class="">
-              Vía Código se basa en el principio de que si un estudiante se
-              encuentra en un entorno positivo y de soporte, tiene la
-              posibilidad de crecer como persona, sin importar su historias y lo
-              que cargue hasta el momento. Vía Código está creando un entorno de
-              apoyo positivo para estos estudiantes, en un lugar en que no es
-              fácil para ellos sentirse bien consigo mismos.
-            </blockquote>
-            <span class="blockquote-author">Eric - Mentor</span>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- fin testimonios -->
-    <!-- Inicio de seccion metodos -->
-    <section class="meto_sec container-fluid">
-      <div class="margin_b_sm">
-        <div class="centrado_meto">
-          <div>
-            <h3 class="titulo_terciario color_AzulVC">
-              METODOLOGÍA DEL <br />
-              <span class="color_RojoVC">PROGRAMA</span>
-            </h3>
-          </div>
-          <div><img src="../images/line.png" class="line_1 line" /></div>
-          <div>
-            <p class="color_grisLetras">
-              Vía Código basa su metodología de enseñanza en el aprendizaje por
-              competencias, un tipo de educación que se enfoca en el desarrollo
-              de competencias genéricas o transversales (instrumentales,
-              interpersonales y sistémicas) y de competencias específicas
-              (propias de cada profesión). El objetivo del aprendizaje basado en
-              competencias es preparar al sujeto para desarrollarse en contextos
-              diversos y complejos, integrando su conocimiento y sus propias
-              actitudes y valores personal y profesionalmente. De esta forma,
-              utilizamos el Coding como motor de desarrollo de competencias
-              tanto técnicas como humanas.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-xs-12">
-            <div><img src="../images/diamon.png" class="imag_peq_go" /></div>
-            <div>
-              <h4 class="titulo_cuaternario color_AzulVC">
-                SELECCIÓN <span class="color_RojoVC">COMPREHENSIVA</span>
-              </h4>
-            </div>
-            <div><img src="../images/line.png" class="line_1 line" /></div>
-            <div class="color_grisLetras">
-              <p>
-                Una metodología personalizada de evaluación abarca 5 áreas:
-                Afinidad tecnológica, Plan de vida, Red de Soporte familiar,
-                Habilidades Cognitivas y Habilidades de Comunicación.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-xs-12">
-            <div><img src="../images/mano.png" class="imag_peq_go" /></div>
-            <div>
-              <h4 class="titulo_cuaternario color_AzulVC">
-                Enseñanza <span class="color_RojoVC">PERSONALIZADA</span>
-              </h4>
-            </div>
-            <div><img src="../images/line.png" class="line_1 line" /></div>
-            <div class="color_grisLetras">
-              <p>
-                Sabemos que la educación comienza por el vínculo. Por eso cuatro
-                profesionales, entre psicólogos y programadores acompañan en
-                cada clase a los alumnos.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-xs-12">
-            <div><img src="../images/corazon.png" class="imag_peq_go" /></div>
-            <div>
-              <h4 class="titulo_cuaternario color_AzulVC">
-                ACOMPAÑAMIENTO <span class="color_RojoVC">PSICOLÓGICO</span>
-              </h4>
-            </div>
-            <div><img src="../images/line.png" class="line_1 line" /></div>
-            <div class="color_grisLetras">
-              <p>
-                Con Terapia personal, talleres grupales, desarrollo de
-                habilidades blandas, trabajo de género, desarrollo de plan de
-                vida y más, nuestro equipo psicológico logra impactar
-                intensamente en las vidas de los participantes.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-xs-12">
-            <div><img src="../images/estrellas.png" class="imag_peq_go" /></div>
-            <div>
-              <h4 class="titulo_cuaternario color_AzulVC">
-                Formación de <span class="color_RojoVC">Calidad</span>
-              </h4>
-            </div>
-            <div><img src="../images/line.png" class="line_1 line" /></div>
-            <div class="color_grisLetras">
-              <p>
-                Los alumnos se convierten en maquetadores frontend de nivel
-                internacional. Aprenden Fundamentos de la computación para
-                entender que es lo que está pasando cuando hablan con las
-                computadoras. Dominan el HTML para potenciar los contenidos de
-                las webs y reciben
-                <a
-                  target="_blank"
-                  href="https://github.com/Via-Codigo/curricula2018/blob/master/Talleres.md"
-                  >formaciones extra</a
-                >
-                por profesionales reconocidos nacional e internacionalmente.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a href="elproyecto.html" class="color_RojoVC enlace_tipoBoton t_center"
-        >VER MÁS</a
-      >
-    </section>
-    <!-- Fin de seccion metodos -->
-    <!-- Seccion de suscribe -->
-    <section class="img_escondidaD">
-      <div class="suscrib_sec img_escondidaI">
-        <div class="row jcc">
-          <div class="col-lg-6 t_center">
-            <div><h3 class="titulo_terciario color_AzulVC">SUSCRÍBETE</h3></div>
-            <div><img src="../images/line.png" class="line_1 line" /></div>
-            <div class="color_grisLetras">
-              <p>
-                Quieres saber más de Vía Código? <br />
-                Suscríbete a nuestro
-                <span class="color_RojoVC">newsletter</span> y te mantendremos
-                actualizado.
-              </p>
-            </div>
-            <div>
-              <form
-                action="https://viacodigo.us16.list-manage.com/subscribe/post?u=a56e283be9b16067bdb429c6d&amp;id=2f4683caf9"
-                method="post"
-                id="mc-embedded-subscribe-form"
-                name="mc-embedded-subscribe-form"
-                class="validate container"
-                target="_blank"
-                novalidate=""
-              >
-                <!--
                   real people should not fill this in and expect good things - do not remove this or risk form bot signups
                 -->
-                <div
-                  style="position: absolute; left: -5000px;"
-                  aria-hidden="true"
-                >
-                  <input
-                    type="text"
-                    name="b_a56e283be9b16067bdb429c6d_2f4683caf9"
-                    tabindex="-1"
-                    value=""
-                  />
+              <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_a56e283be9b16067bdb429c6d_2f4683caf9" tabindex="-1" value="" />
+              </div>
+              <div class="row">
+                <div id="mc_embed_signup_scroll" class="col-lg-9 col-xs-12 sin_padding">
+                  <input class="input_gigante" type="email" name="EMAIL" placeholder="Enter your email address" id="mce-EMAIL"
+                    required />
                 </div>
-                <div class="row">
-                  <div
-                    id="mc_embed_signup_scroll"
-                    class="col-lg-9 col-xs-12 sin_padding"
-                  >
-                    <input
-                      class="input_gigante"
-                      type="email"
-                      name="EMAIL"
-                      placeholder="Ingresa tu email"
-                      id="mce-EMAIL"
-                      required
-                    />
-                  </div>
-                  <div class="col-lg-3 col-xs-12 sin_padding clear">
-                    <button
-                      type="submit"
-                      class="btn btn-default btn_gigante"
-                      id="mc-embedded-subscribe"
-                    >
-                      Suscríbete
-                    </button>
-                  </div>
+                <div class="col-lg-3 col-xs-12 sin_padding clear">
+                  <button type="submit" class="btn btn-default btn_gigante" id="mc-embedded-subscribe">
+                    Subscribe
+                  </button>
                 </div>
-              </form>
-            </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Fin de seccion de suscribe -->
+  <footer class="footer_sec">
+    <section class="container-fluid footer_padding">
+      <div class="row">
+        <div class="col-lg-8 col-xs-12 padding_left">
+          <div>
+            <a href="/">
+              <img src="../images/vc_blanco.svg" class="img_footer_lod margin_left_md" />
+            </a>
+          </div>
+          <nav>
+            <ul class="in_lista_menu">
+              <li class="lista_menu_footer">
+                <a class="hover_rojoVC color_whiteVC" href="/">HOME</a>
+              </li>
+              <li class="lista_menu_footer">
+                <a class="hover_rojoVC color_whiteVC" href="the-project.html">THE PROJECT</a>
+              </li>
+              <li class="lista_menu_footer">
+                <a class="hover_rojoVC color_whiteVC" href="get-involved.html">GET INVOLVED</a>
+              </li>
+              <li class="lista_menu_footer">
+                <a class="hover_rojoVC color_whiteVC" href="https://webshop.viacodigo.com">WEBSHOP</a>
+              </li>
+              <li class="lista_menu_footer">
+                <a class="hover_rojoVC color_whiteVC" href="https://blog.viacodigo.com">BLOG</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="color_footer_enlace margin_left_sm">
+            <p>Copyright © 2018 Vía Código all rights reserved</p>
+          </div>
+        </div>
+        <div class="col-lg-4 background_ubicanos">
+          <div class="margin_bottomMD color_footer_enlace">
+            <p>
+              Manuel Olguín 335, Of.101, <br />
+              Santiago de Surco, <br />
+              Lima, Peru
+            </p>
+          </div>
+          <div class="margin_bottomMD">
+            <p>
+              <a href="callto:+51961738608" class="color_whiteVC hover_AmarilloVC">961 738 608</a>
+              <br />
+              <a href="mailto:info@viacodigo.com" class="color_whiteVC hover_AmarilloVC">info@viacodigo.com</a>
+            </p>
+          </div>
+          <div class="margin_bottomMD">
+            <ul class="ul_icon">
+              <li class="list_icons">
+                <a href="https://www.facebook.com/viacodigoperu/" target="_blank" class="icon_color">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list_icons">
+                <a href="https://www.linkedin.com/company/via-codigo/" target="_blank" class="icon_color">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="list_icons">
+                <a href="https://twitter.com/ViaCodigo" target="_blank" class="icon_color">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+              <li class="list_icons">
+                <a href="https://www.youtube.com/channel/UCbLmFnvZuztoXxAvRHpD_mw" target="_blank" class="icon_color">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
-    <!-- Fin de seccion de suscribe -->
-    <footer class="footer_sec">
-      <section class="container-fluid footer_padding">
-        <div class="row">
-          <div class="col-lg-8 col-xs-12 padding_left">
-            <div>
-              <a href="/">
-                <img
-                  src="../images/vc_blanco.svg"
-                  class="img_footer_lod margin_left_md"
-                />
-              </a>
-            </div>
-            <nav>
-              <ul class="in_lista_menu">
-                <li class="lista_menu_footer">
-                  <a class="hover_rojoVC color_whiteVC" href="/">INICIO</a>
-                </li>
-                <li class="lista_menu_footer">
-                  <a class="hover_rojoVC color_whiteVC" href="elproyecto.html"
-                    >EL PROYECTO</a
-                  >
-                </li>
-                <li class="lista_menu_footer">
-                  <a class="hover_rojoVC color_whiteVC" href="involucrate.html"
-                    >INVOLUCRATE</a
-                  >
-                </li>
-                <li class="lista_menu_footer">
-                  <a
-                    class="hover_rojoVC color_whiteVC"
-                    href="https://webshop.viacodigo.com"
-                    >WEBSHOP</a
-                  >
-                </li>
-                <li class="lista_menu_footer">
-                  <a
-                    class="hover_rojoVC color_whiteVC"
-                    href="https://blog.viacodigo.com"
-                    >BLOG</a
-                  >
-                </li>
-              </ul>
-            </nav>
-            <div class="color_footer_enlace margin_left_sm">
-              <p>Copyright © 2018 via codigo todos los derechos reservados</p>
-            </div>
-          </div>
-          <div class="col-lg-4 background_ubicanos">
-            <div class="margin_bottomMD color_footer_enlace">
-              <p>
-                Manuel Olguín 335, Of.101, <br />
-                Santiago de Surco, <br />
-                Lima, Perú
-              </p>
-            </div>
-            <div class="margin_bottomMD">
-              <p>
-                <a
-                  href="callto:+51961738608"
-                  class="color_whiteVC hover_AmarilloVC"
-                  >961 738 608</a
-                >
-                <br />
-                <a
-                  href="mailto:info@viacodigo.com"
-                  class="color_whiteVC hover_AmarilloVC"
-                  >info@viacodigo.com</a
-                >
-              </p>
-            </div>
-            <div class="margin_bottomMD">
-              <ul class="ul_icon">
-                <li class="list_icons">
-                  <a
-                    href="https://www.facebook.com/viacodigoperu/"
-                    target="_blank"
-                    class="icon_color"
-                  >
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list_icons">
-                  <a
-                    href="https://www.linkedin.com/company/via-codigo/"
-                    target="_blank"
-                    class="icon_color"
-                  >
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-                <li class="list_icons">
-                  <a
-                    href="https://twitter.com/ViaCodigo"
-                    target="_blank"
-                    class="icon_color"
-                  >
-                    <i class="fab fa-youtube"></i>
-                  </a>
-                </li>
-                <li class="list_icons">
-                  <a
-                    href="https://www.youtube.com/channel/UCbLmFnvZuztoXxAvRHpD_mw"
-                    target="_blank"
-                    class="icon_color"
-                  >
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-    </footer>
+  </footer>
 
-    <!-- Scripts -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
 
-    <script type="text/javascript" src="bootstrap.js"></script>
-    <script src="js/vendor/countUp.min.js"></script>
+  <script type="text/javascript" src="bootstrap.js"></script>
+  <script src="js/vendor/countUp.min.js"></script>
 
-    <script src="bower_components/tiny-slider/dist/min/tiny-slider.js"></script>
+  <script src="bower_components/tiny-slider/dist/min/tiny-slider.js"></script>
 
-    <script type="text/javascript" src="app.js"></script>
-    <script src="js/team.js"></script>
-    <script>
-      var slider = tns({
-        container: ".slider",
-        items: 1,
-        constrols: true,
+  <script type="text/javascript" src="app.js"></script>
+  <script src="js/team.js"></script>
+  <script>
+    var slider = tns({
+      container: ".slider",
+      items: 1,
+      constrols: true,
 
-        autoplayHoverPause: true,
-        autoHeight: true,
-        mouseDrag: true,
-        slideBy: "page",
-        controlsContainer: "#customize-controls"
-      });
-    </script>
+      autoplayHoverPause: true,
+      autoHeight: true,
+      mouseDrag: true,
+      slideBy: "page",
+      controlsContainer: "#customize-controls"
+    });
+  </script>
 
-    <script>
-      var options = {
-        useEasing: true,
-        useGrouping: false,
-        separator: ",",
-        decimal: "."
-      };
-      var proyectos = new CountUp(
-        document.getElementById("proyectos"),
-        0,
-        25,
-        0,
-        2,
-        options
-      );
-      var horasDev = new CountUp(
-        document.getElementById("horas-dev"),
-        0,
-        500,
-        0,
-        2,
-        options
-      );
-      var placements = new CountUp(
-        document.getElementById("placements"),
-        0,
-        25,
-        0,
-        2,
-        options
-      );
-      var dp = new CountUp(
-        document.getElementById("dp"),
-        0,
-        100,
-        0,
-        2,
-        options
-      );
+  <script>
+    var options = {
+      useEasing: true,
+      useGrouping: false,
+      separator: ",",
+      decimal: "."
+    };
+    var proyectos = new CountUp(
+      document.getElementById("proyectos"),
+      0,
+      25,
+      0,
+      2,
+      options
+    );
+    var horasDev = new CountUp(
+      document.getElementById("horas-dev"),
+      0,
+      500,
+      0,
+      2,
+      options
+    );
+    var placements = new CountUp(
+      document.getElementById("placements"),
+      0,
+      25,
+      0,
+      2,
+      options
+    );
+    var dp = new CountUp(
+      document.getElementById("dp"),
+      0,
+      100,
+      0,
+      2,
+      options
+    );
 
-      const counters = [placements, dp, horasDev, proyectos];
+    const counters = [placements, dp, horasDev, proyectos];
 
-      for (let i = 0; i < counters.length; i++) {
-        if (!counters[i].error) {
-          counters[i].start();
-        } else {
-          console.error(counters[i].error);
-        }
+    for (let i = 0; i < counters.length; i++) {
+      if (!counters[i].error) {
+        counters[i].HOME();
+      } else {
+        console.error(counters[i].error);
       }
-    </script>
-  </body>
+    }
+  </script>
+</body>
+
 </html>
