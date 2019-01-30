@@ -1,63 +1,12 @@
 {
-  "ftp://dolamrothseo.com@viacodigoestatica@dolamrothseo.com": {
+  "ftp://ftp.viacodigo.com@viacodigoestatica@viacodigo.com": {
     ".ftpquota": {
       "type": "-",
-      "size": 4,
+      "size": 10,
       "lmtime": 0,
       "modified": false
     },
-    "app.js": {
-      "type": "-",
-      "size": 1178,
-      "lmtime": 0,
-      "modified": false
-    },
-    "bootstrap.css": {
-      "type": "-",
-      "size": 173607,
-      "lmtime": 0,
-      "modified": false
-    },
-    "bootstrap.js": {
-      "type": "-",
-      "size": 123765,
-      "lmtime": 0,
-      "modified": false
-    },
-    "bower_components": {},
-    "css": {},
-    "elproyecto.html": {
-      "type": "-",
-      "size": 22661,
-      "lmtime": 0,
-      "modified": false
-    },
-    "humans.txt": {
-      "type": "-",
-      "size": 61,
-      "lmtime": 0,
-      "modified": false
-    },
-    "images": {},
-    "index.html": {
-      "type": "-",
-      "size": 39343,
-      "lmtime": 0,
-      "modified": true
-    },
-    "involucrate.html": {
-      "type": "-",
-      "size": 11350,
-      "lmtime": 0,
-      "modified": true
-    },
-    "js": {},
-    "style.css": {
-      "type": "-",
-      "size": 16096,
-      "lmtime": 0,
-      "modified": true
-    }
+    "blogviacodigo": {}
   },
   "$version": 1
 }
