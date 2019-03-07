@@ -2,11 +2,85 @@
   "ftp://ftp.viacodigo.com@viacodigoestatica@viacodigo.com": {
     ".ftpquota": {
       "type": "-",
-      "size": 10,
+      "size": 13,
+      "lmtime": 0,
+      "modified": true
+    },
+    ".git": {},
+    ".gitignore": {
+      "type": "-",
+      "size": 914,
       "lmtime": 0,
       "modified": false
     },
-    "blogviacodigo": {}
+    ".htaccess": {
+      "type": "-",
+      "size": 3216,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".vscode": {},
+    ".well-known": {},
+    "README.md": {
+      "type": "-",
+      "size": 520,
+      "lmtime": 0,
+      "modified": false
+    },
+    "app.js": {
+      "type": "-",
+      "size": 1178,
+      "lmtime": 0,
+      "modified": false
+    },
+    "bootstrap.css": {
+      "type": "-",
+      "size": 173607,
+      "lmtime": 0,
+      "modified": false
+    },
+    "bootstrap.js": {
+      "type": "-",
+      "size": 123765,
+      "lmtime": 0,
+      "modified": false
+    },
+    "bower_components": {},
+    "componentes": {},
+    "css": {},
+    "elproyecto.html": {
+      "type": "-",
+      "size": 23195,
+      "lmtime": 0,
+      "modified": false
+    },
+    "en": {},
+    "humans.txt": {
+      "type": "-",
+      "size": 61,
+      "lmtime": 0,
+      "modified": false
+    },
+    "images": {},
+    "index.html": {
+      "type": "-",
+      "size": 41571,
+      "lmtime": 0,
+      "modified": false
+    },
+    "involucrate.html": {
+      "type": "-",
+      "size": 11679,
+      "lmtime": 0,
+      "modified": false
+    },
+    "js": {},
+    "style.css": {
+      "type": "-",
+      "size": 16096,
+      "lmtime": 0,
+      "modified": false
+    }
   },
   "$version": 1
 }
