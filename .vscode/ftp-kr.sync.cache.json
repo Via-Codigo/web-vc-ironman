@@ -2,22 +2,16 @@
   "ftp://ftp.viacodigo.com@viacodigoestatica@viacodigo.com": {
     ".ftpquota": {
       "type": "-",
-      "size": 13,
+      "size": 14,
       "lmtime": 0,
       "modified": true
     },
     ".git": {},
     ".gitignore": {
       "type": "-",
-      "size": 914,
+      "size": 932,
       "lmtime": 0,
-      "modified": false
-    },
-    ".htaccess": {
-      "type": "-",
-      "size": 3216,
-      "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     ".vscode": {},
     ".well-known": {},
@@ -64,7 +58,7 @@
     "images": {},
     "index.html": {
       "type": "-",
-      "size": 41887,
+      "size": 45660,
       "lmtime": 0,
       "modified": true
     },
@@ -77,9 +71,9 @@
     "js": {},
     "style.css": {
       "type": "-",
-      "size": 16096,
+      "size": 16094,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     }
   },
   "$version": 1
